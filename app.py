@@ -39,10 +39,9 @@ color_discrete_map = {
     "negative": "#FFBDBF"   # light red
 }
 
-# Initialize Dash app
+
 app = dash.Dash(__name__)
 
-# App Layout
 app.layout = html.Div(
     style={
         "fontFamily": "Arial, sans-serif",
